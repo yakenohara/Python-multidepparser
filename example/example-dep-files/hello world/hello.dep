@@ -1,0 +1,20 @@
+hello: tgt\standalone_ram.ld C:\MULTIinstDir\ARM_V.Rxxx\comp_abcdef\lib\thumba2\crt0.o \
+ objs\hello\hello.o C:\MULTIinstDir\ARM_V.Rxxx\comp_abcdef\lib\thumba2\libmulti.a \
+ C:\MULTIinstDir\ARM_V.Rxxx\comp_abcdef\lib\thumba2\libfmalloc.a \
+ C:\MULTIinstDir\ARM_V.Rxxx\comp_abcdef\lib\thumba2\libwchar_u16.a \
+ C:\MULTIinstDir\ARM_V.Rxxx\comp_abcdef\lib\thumba2\libansi.a \
+ C:\MULTIinstDir\ARM_V.Rxxx\comp_abcdef\lib\thumba2\libwc_u16.a \
+ C:\MULTIinstDir\ARM_V.Rxxx\comp_abcdef\lib\thumba2\libmath_sf.a \
+ C:\MULTIinstDir\ARM_V.Rxxx\comp_abcdef\lib\thumba2\libind_sf.a \
+ C:\MULTIinstDir\ARM_V.Rxxx\comp_abcdef\lib\thumba2\libstartup.a \
+ C:\MULTIinstDir\ARM_V.Rxxx\comp_abcdef\lib\thumba2\libsys.a \
+ C:\MULTIinstDir\ARM_V.Rxxx\comp_abcdef\lib\thumba2\libarch.a
+
+:cmdList=ccarm $(FILETYPEOPTIONS) $(OBJECTS) -MD -bsp ebm3 -G -align8 -object_dir=objs\hello -top_project "D:\\\pj\\hello world\\default.gpj" -o hello ; 
+:cmdHash=0xf1234a67
+
+:objList=objs\hello\hello.o tgt\standalone_ram.ld ; 
+:objHash=0xf1234a67
+
+:installDir=c:\MULTIinstDir\ARM_V.Rxxx\comp_abcdef
+:installDirHash=0xf1234a67
